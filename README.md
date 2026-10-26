@@ -72,3 +72,14 @@ Después abre `Bocado.ipynb`, selecciona el kernel `.venv` y pulsa **Run All**. 
 
 ## 9. Posibles mejoras
 Añadir más documentos, guardar la memoria en una base de datos y crear una interfaz web con Streamlit.
+
+## 10. Aplicación web (Streamlit)
+Versión web de Bocado, con la misma lógica que el notebook (RAG, memoria con LangGraph y los mismos 3 documentos):
+
+**URL pública:** https://bocado-asistente-nutricion.streamlit.app
+
+El código está en `app.py`. Para ejecutarla en local:
+
+```bash
+streamlit run app.py
+```
